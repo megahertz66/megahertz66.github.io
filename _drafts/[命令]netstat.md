@@ -1,4 +1,0 @@
-# netstat
-
-
-netstat -lpnu
