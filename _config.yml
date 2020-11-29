@@ -84,9 +84,9 @@ share_to: true #enable share-to buttons if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  name: Hert      ## e.g. wuchong Author name
+  intro_line1:  "What do you think of this blog?"    ## your introduction on the bottom of the page
+  intro_line2:  "Dose the content help you?"  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -109,9 +109,9 @@ toc:
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
-links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+#links:
+  #码农圈: https://coderq.com
+  #Jark's Blog: http://wuchong.me
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
