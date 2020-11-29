@@ -29,7 +29,7 @@ paginate: 20
 
 #### Site
 title : Hert's Blog
-tagline: Growth record of embedded engineers.
+tagline: A fresh looking and responsive theme for Jekyll
 assets: /assets
 url:
 baseurl:
@@ -53,11 +53,11 @@ menu:
 widgets:
 - category
 - tag
-#- tagcloud
-#- links
-#- douban
+- tagcloud
+- links
+- douban
 - github-card
-#- rss
+- rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
