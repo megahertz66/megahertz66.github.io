@@ -8,24 +8,11 @@
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
 </section>
-{% elsif site.gitalk %}
+{% elsif site.comments.gitalk %}
 <section id="comments" class="comment">
   <div id="disqus_thread"></div>
   <div id="gitalk_container"></div>
 </section>
-<script>
-  var gitalk = new Gitalk({
-      clientID: '{{ site.gitalk_clientID }}',
-      clientSecret: '{{ site.gitalk_Secret }}',
-      repo: '{{ site.gitalk_repo }}',
-      owner: '{{ site.gitalk_owner }}',
-      admin: '{{ site.gitalk_admin }}',
-      id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
-    })
-
-    gitalk.render('disqus_thread')
-</script>
 {% elsif site.hypercomments_id %}
 <section id="comments" class="comment">
 	<div id="hypercomments_widget"></div>

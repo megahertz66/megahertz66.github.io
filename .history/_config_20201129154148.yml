@@ -116,8 +116,8 @@ toc:
 #### Comment
 
   gitalk: true
-  gitalk_clientID: '7957a62ecd4a379b2cf2'
-  gitalk_Secret: 'c6926c78ae219d7859d630951e08430242a3d677'
+  gitalk_clientID: 7957a62ecd4a379b2cf2
+  gitalk_Secret: c6926c78ae219d7859d630951e08430242a3d677
   gitalk_repo: 'megahertz66.github.io'
   gitalk_owner: 'megahertz66'
   gitalk_admin: 'megahertz66'

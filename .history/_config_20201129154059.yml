@@ -116,13 +116,13 @@ toc:
 #### Comment
 
   gitalk: true
-  gitalk_clientID: '7957a62ecd4a379b2cf2'
-  gitalk_Secret: 'c6926c78ae219d7859d630951e08430242a3d677'
-  gitalk_repo: 'megahertz66.github.io'
-  gitalk_owner: 'megahertz66'
-  gitalk_admin: 'megahertz66'
+  gitalk_clientID: 'Client ID'
+  gitalk_Secret: 'Client Secret'
+  gitalk_repo: '用户名.github.io'
+  gitalk_owner: '用户名'
+  gitalk_admin: '用户名'
   distractionFreeMode: true
-
+  
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
 disqus_shortname:     ## e.g. wuchong      your disqus short name.        website: http://disqus.com
 hypercomments_id:     ## e.g. 91510        your hypercomments widget id.  website: http://hypercomments.com
