@@ -47,6 +47,9 @@ The application is called "mdev" and a file named led will be created under "/de
 
 1. Register char device
 ```c
+
+/* In linux-3.4.11/include/linux/fs.h */
+
 static inline int register_chrdev(unsigned int major, const char *name,
 				  const struct file_operations *fops)
 {
@@ -59,6 +62,57 @@ static inline void unregister_chrdev(unsigned int major, const char *name)
 }
 
 ```
+
+
+static struct char_device_struct {
+	struct char_device_struct *next;
+	unsigned int major;
+	unsigned int baseminor;
+	int minorct;
+	char name[64];
+	struct cdev *cdev;		/* will die */
+} *chrdevs[CHRDEV_MAJOR_HASH_SIZE];
+
+struct cdev {
+	struct kobject kobj;
+	struct module *owner;
+	const struct file_operations *ops;
+	struct list_head list;
+	dev_t dev;
+	unsigned int count;
+};
+
+
+The function named "__register_chrdev" have three parts.   
+1. "__register_chrdev_region(unsigned int major, unsigned int baseminor,
+			   int minorct, const char *name)" 
+> "Register a single major with a specified minor range."  
+
+If the first parameter is 0. The function will dynamically alloc the major of the device.
+NULL items will be found in the array, and set the major with index of this array.
+
+```c
+if (major == 0) {
+		for (i = ARRAY_SIZE(chrdevs)-1; i > 0; i--) {
+			if (chrdevs[i] == NULL)
+				break;
+		}
+
+		if (i == 0) {
+			ret = -EBUSY;
+			goto out;
+		}
+		major = i;
+		ret = major;
+	}
+```
+
+
+2. "cdev_alloc"
+
+3. "cdev_add"
+
+
 
 
 
