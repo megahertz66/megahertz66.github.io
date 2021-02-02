@@ -26,6 +26,8 @@ All four structures support the following functionality:
 
 Every data structures have its own characteristics.
 
+## Singly-linked lists
+
 Singly-linked lists are the simplest of the four data structures and support only the above functionality.  Singly-
 linked lists are ideal for applications with large datasets and few or no removals, or for implementing a LIFO queue.
 Singly-linked lists add the following functionality:
@@ -57,36 +59,13 @@ SLIST_REMOVE_HEAD(SLIST_HEAD *head, SLIST_ENTRY NAME);
 SLIST_REMOVE(SLIST_HEAD *head, TYPE *elm, TYPE, SLIST_ENTRY NAME);
 
 
-## Use it
+### Use it
 
 The macros is designed to be easy to use.
 
-/* First, design your list structure */
-
-struct nd_list_entry_t
-{
-    int    status_flag;
-    struct ether_addr macaddr;
-    struct in6_addr ip6addr;
-    time_t jiontime;
-    time_t timo;
-    LIST_ENTRY(nd_list_entry_t) entries;     // Use this macro 
-};
-
-/* Second, create the head of list */
-
-SLIST_HEAD([your list head name], nd_list_entry_t);
-
-/* that's it. The header name is used to manipulate the list */
-
-/* If you want to insert element at the head */
-
-SLIST_INSERT_HEAD([head name], [your new element], entries);
 
 
-
-
-## Test code
+**Test code**
 
 ```c
 #include <sys/queue.h>
@@ -135,3 +114,50 @@ int main()
 data_1 = 3 	 data_2 = 4
 
 ```
+
+## Singly-linked tail queues
+
+Singly-linked tail queues add the following functionality:
+
+1.   Entries can be added at the end of a list.
+2.   O(n) removal of any entry in the list.
+3.   They may be concatenated.
+
+However:
+
+1.   All list insertions must specify the head of the list.
+2.   Each head entry requires two pointers rather than one.
+3.   Code size is about 15% greater and operations run about 20% slower than singly-
+    linked lists.
+
+Singly-linked tail queues are ideal for applications with large datasets and few or no
+removals, or for implementing a FIFO queue.
+
+
+STAILQ_CONCAT(STAILQ_HEAD *head1, STAILQ_HEAD *head2);
+
+STAILQ_EMPTY(STAILQ_HEAD *head);
+
+STAILQ_ENTRY(TYPE);
+
+STAILQ_FIRST(STAILQ_HEAD *head);
+
+STAILQ_FOREACH(TYPE *var, STAILQ_HEAD *head, STAILQ_ENTRY NAME);
+
+STAILQ_HEAD(HEADNAME, TYPE);
+
+STAILQ_HEAD_INITIALIZER(STAILQ_HEAD head);
+
+STAILQ_INIT(STAILQ_HEAD *head);
+
+STAILQ_INSERT_AFTER(STAILQ_HEAD *head, TYPE *listelm, TYPE *elm, STAILQ_ENTRY NAME);
+
+STAILQ_INSERT_HEAD(STAILQ_HEAD *head, TYPE *elm, STAILQ_ENTRY NAME);
+
+STAILQ_INSERT_TAIL(STAILQ_HEAD *head, TYPE *elm, STAILQ_ENTRY NAME);
+
+STAILQ_NEXT(TYPE *elm, STAILQ_ENTRY NAME);
+
+STAILQ_REMOVE_HEAD(STAILQ_HEAD *head, STAILQ_ENTRY NAME);
+
+STAILQ_REMOVE(STAILQ_HEAD *head, TYPE *elm, TYPE, STAILQ_ENTRY NAME);
