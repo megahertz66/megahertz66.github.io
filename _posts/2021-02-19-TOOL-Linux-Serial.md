@@ -1,5 +1,5 @@
 ---
-title: [TOOL] Linux Serial
+title: -TOOL- Linux Serial
 date: 2021-02-18
 categories:
 - Linux
