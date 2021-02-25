@@ -83,7 +83,7 @@ struct sk_buff {
 
 	ktime_t			tstamp;     // 到达时间
 
-	struct sock		*sk;
+	struct sock		*sk;		// 指向sk_buff 自身的指针，当包只作为转发的时候为 NULL
 	struct net_device	*dev;   // 接收或到达的设备
 
 	/*
