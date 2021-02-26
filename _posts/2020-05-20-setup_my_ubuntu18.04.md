@@ -2,10 +2,9 @@
 title: 安装 ubuntu18.04 的记录
 date: 2020-05-20
 categories:
-- Ubuntu
+- System Configuration
 tags:
 - Linux
-- Ubuntu
 ---
 
 折腾 ubuntu18.04

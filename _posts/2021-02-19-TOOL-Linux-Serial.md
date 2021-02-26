@@ -2,9 +2,9 @@
 title: -TOOL- Linux Serial
 date: 2021-02-18
 categories:
-- Linux
+- Other
 tags:
-- Linux-TOOL
+- Tools
 ---
 
 A simple serial tool for Linux ---- picocom

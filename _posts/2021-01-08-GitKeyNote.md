@@ -2,7 +2,7 @@
 title: Git Key 操作备忘
 date: 2021-01-08
 categories:
-- Git
+- Other
 tags:
 - Git
 ---

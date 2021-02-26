@@ -2,9 +2,9 @@
 title: -NET- Linux-net-stack
 date: 2020-10-03
 categories:
-- Linux
+- Kernel
 tags:
-- Linux-networking
+- Networking Stack
 ---
 
 # Linux-net-stack

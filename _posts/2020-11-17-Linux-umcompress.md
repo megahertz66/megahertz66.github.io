@@ -2,11 +2,9 @@
 title: Linux 解压缩命令备忘
 date: 2019-11-17
 categories:
-- Linux
+- Kernel
 tags:
-- Linux
-- Shell
-- un-compress
+- Linux Commands
 ---
 
 

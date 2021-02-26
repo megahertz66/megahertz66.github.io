@@ -2,10 +2,9 @@
 title: Unix domain socket 
 date: 2019-08-10
 categories:
-- Linux
+- Technical records
 tags:
 - Linux
-- Linux-API
 ---
  
 liux中的一种进程间通信方式就是通过网络套接字进行通讯的。  

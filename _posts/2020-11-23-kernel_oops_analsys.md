@@ -2,10 +2,9 @@
 title: MIPS 架构 Kernel oops 分析(待续...)
 date: 2020-11-23
 categories:
-- Linux
-tags:
 - Kernel
-- Linux
+tags:
+- Debug
 ---
 
 

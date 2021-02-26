@@ -2,9 +2,9 @@
 title: Linux IPv6 Device Start
 date: 2021-02-02
 categories:
-- Linux
+- Networking
 tags:
-- Linux-networking
+- Networking Stack
 ---
 
 

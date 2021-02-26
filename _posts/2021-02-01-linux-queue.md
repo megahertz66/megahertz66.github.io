@@ -2,9 +2,9 @@
 title: Linux内嵌链表(<sys/queue.h>)
 date: 2021-01-25
 categories:
-- Data-Structure
+- Technical records
 tags:
-- Linux-API
+- Linux
 ---
 
 C is not same as C++. Any structure must be realized on its own. There is a "queue" relies on "<sys/queue.h>".

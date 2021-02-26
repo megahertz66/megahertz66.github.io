@@ -2,9 +2,9 @@
 title: CAN NOT CLONE FROM GIT
 date: 2020-09-02
 categories:
-- Problem-solving
+- Technical records
 tags:
-- Problem-solving
+- Git
 ---
 
 

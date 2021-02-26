@@ -2,10 +2,9 @@
 title: LINUX 路由子系统流程分析
 date: 2020-11-28
 categories:
-- Linux
+- Kernel
 tags:
-- Linux
-- Routing-Subsystem
+- Networking Stack
 ---
 
 

@@ -2,9 +2,9 @@
 title: String Concatenation Using Macros
 date: 2021-02-24
 categories:
-- Linux
+- Technical records
 tags:
-- C-Language
+- C
 ---
 
 

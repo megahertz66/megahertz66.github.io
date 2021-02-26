@@ -2,7 +2,7 @@
 title: 转 IPC通信 基于管道的popen和pclose函数
 date: 2019-08-10
 categories:
-- Linux
+- Technical records
 tags:
 - Linux
 ---

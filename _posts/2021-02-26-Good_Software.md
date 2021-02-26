@@ -2,7 +2,7 @@
 title: -NET- sk_buff Structure
 date: 2021-02-26
 categories:
-- SoftWare
+- Other
 ---
 
 ## Windows

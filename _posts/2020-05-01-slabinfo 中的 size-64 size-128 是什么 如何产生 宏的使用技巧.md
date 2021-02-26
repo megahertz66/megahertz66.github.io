@@ -2,10 +2,9 @@
 title: slabinfo中的size-64和size-128都是什么
 date: 2020-05-01
 categories:
-- Linux
+- Kernel
 tags:
 - Linux
-- Linux-kernel
 ---
 
 
