@@ -2,7 +2,7 @@
 title: VScode Debug C++ Code
 date: 2020-11-30
 categories:
-- Technical records
+- Technical-records
 tags:
 - VScode
 ---

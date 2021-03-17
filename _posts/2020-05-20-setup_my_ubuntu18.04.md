@@ -2,7 +2,7 @@
 title: 安装 ubuntu18.04 的记录
 date: 2020-05-20
 categories:
-- System Configuration
+- System-Configuration
 tags:
 - Linux
 ---

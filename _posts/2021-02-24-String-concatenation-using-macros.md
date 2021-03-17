@@ -2,7 +2,7 @@
 title: String Concatenation Using Macros
 date: 2021-02-24
 categories:
-- Technical records
+- Technical-records
 tags:
 - C
 ---

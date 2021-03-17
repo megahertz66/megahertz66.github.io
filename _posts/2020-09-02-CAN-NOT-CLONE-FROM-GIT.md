@@ -2,7 +2,7 @@
 title: CAN NOT CLONE FROM GIT
 date: 2020-09-02
 categories:
-- Technical records
+- Technical-records
 tags:
 - Git
 ---

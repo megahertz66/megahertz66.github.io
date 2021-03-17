@@ -2,7 +2,7 @@
 title: Unix domain socket 
 date: 2019-08-10
 categories:
-- Technical records
+- Technical-records
 tags:
 - Linux
 ---

@@ -2,7 +2,7 @@
 title: Linux内嵌链表(<sys/queue.h>)
 date: 2021-01-25
 categories:
-- Technical records
+- Technical-records
 tags:
 - Linux
 ---
