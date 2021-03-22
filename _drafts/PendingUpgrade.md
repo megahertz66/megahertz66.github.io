@@ -1,13 +1,16 @@
 
-## 如何查看软件包已经安装
+## 脠莽潞脦虏茅驴麓脠铆录镁掳眉脪脩戮颅掳虏脳掳
 
-1、rpm包安装的，可以用 rpm -qa 看到，如果要查找某软件包是否安装，用 rpm -qa | grep "软件或者包的名字"
+1隆垄rpm掳眉掳虏脳掳碌脛拢卢驴脡脪脭脫脙 rpm -qa 驴麓碌陆拢卢脠莽鹿没脪陋虏茅脮脪脛鲁脠铆录镁掳眉脢脟路帽掳虏脳掳拢卢脫脙 rpm -qa | grep "脠铆录镁禄貌脮脽掳眉碌脛脙没脳脰"
 
-2、以deb包安装的，可以用 dpkg -l 看到。如果是查找指定软件包，用 dpkg -l | grep "软件或者包的名字"
+2隆垄脪脭deb掳眉掳虏脳掳碌脛拢卢驴脡脪脭脫脙 dpkg -l 驴麓碌陆隆拢脠莽鹿没脢脟虏茅脮脪脰赂露篓脠铆录镁掳眉拢卢脫脙 dpkg -l | grep "脠铆录镁禄貌脮脽掳眉碌脛脙没脳脰"
 
-3、yum方法安装的，可以用 yum list installed 查找，如果是查找指定包，用 yum list installed | grep "软件名或者包名"
+3隆垄yum路陆路篓掳虏脳掳碌脛拢卢驴脡脪脭脫脙 yum list installed 虏茅脮脪拢卢脠莽鹿没脢脟虏茅脮脪脰赂露篓掳眉拢卢脫脙 yum list installed | grep "脠铆录镁脙没禄貌脮脽掳眉脙没"
 
 
+## CORE
+https://blog.csdn.net/Imkiimki/article/details/103718733
+https://blog.csdn.net/weixin_34391854/article/details/93811034
 
 ## FTPS
 https://support.huawei.com/enterprise/zh/knowledge/EKB1000065916
@@ -21,3 +24,12 @@ https://zhuanlan.zhihu.com/p/133375078
 ## PPPOE
 
 http://www.utt.com.cn/reference.php?id=730
+
+## UPNP
+
+## ioctl 鍐呮牳瀹炵幇
+
+
+
+
+## Linux network namespace
